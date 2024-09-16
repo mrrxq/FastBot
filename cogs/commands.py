@@ -276,14 +276,14 @@ class Example(commands.Cog):
             await interaction.response.send_message(f"Stuk gegaan: {e}")
 
     # Rich Presence
-    @tasks.loop(minutes=2)  # Deze loop wordt elke 2 minuten uitgevoerd
+    @tasks.loop(minutes=5)  # Deze loop wordt elke 2 minuten uitgevoerd
     async def status_loop(self):
         # Maak een lijst met verschillende activiteiten
         statuses = [
-            discord.Activity(type=discord.ActivityType.playing, name="Valorant"),
-            discord.Activity(type=discord.ActivityType.watching, name="Kinderporno"),
-            discord.Activity(type=discord.ActivityType.listening, name="Burning Down - Dual Damage"),
-            discord.Activity(type=discord.ActivityType.playing, name="Met zichzelf")
+            discord.Activity(type=discord.ActivityType.playing, name="Visual Studio Code"),
+            discord.Activity(type=discord.ActivityType.watching, name="OAIEFH"),
+            discord.Activity(type=discord.ActivityType.listening, name="Wdwy"),
+            discord.Activity(type=discord.ActivityType.playing, name="Visual Studio Code")
         ]
         
         # Kies willekeurig een activiteit uit de lijst
