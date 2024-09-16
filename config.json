@@ -1,6 +1,6 @@
 {
     "general": {
-        "bot-token": "MTI4NTE5Nzk5NzQ4NzAzMDM0Mw.Gk8ODu.mKE4rLvXuS9ovD2FqcNluakJDb7i5j7P9yvLNQ",
+        "bot-token": "",
         "guild_id": "1285197382258135060",
         "logging_channel_id": "1285200005262606336",
         "approved_user_ids": [1018593691172085870, 449193389766869003]
